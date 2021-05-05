@@ -1,0 +1,22 @@
+{
+  "name": "practice-form-automation",
+  "version": "1.0.0",
+  "description": "Simple practice form automation using Puppeteer library",
+  "main": "puppeteer.test.js",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "mocha": "^8.3.2",
+    "playwright": "^1.10.0",
+    "puppeteer": "^9.1.0"
+  },
+  "scripts": {
+    "start": "node ./node_modules/mocha/bin/mocha --timeout=30000 puppeteer.test.js",
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 puppeteer.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markost2549/practice-form-automation.git"
+  },
+  "author": "Marko Stojkovic",
+  "license": "ISC"
+}
