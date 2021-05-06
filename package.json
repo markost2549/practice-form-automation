@@ -10,8 +10,8 @@
     "puppeteer": "^9.1.0"
   },
   "scripts": {
-    "start": "node ./node_modules/mocha/bin/mocha --timeout=30000 puppeteer.test.js",
-    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 puppeteer.test.js"
+    "start": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/puppeteer.test.js",
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/puppeteer.test.js"
   },
   "repository": {
     "type": "git",
