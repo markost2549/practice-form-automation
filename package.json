@@ -11,7 +11,8 @@
   },
   "scripts": {
     "start": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/puppeteer.test.js",
-    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/puppeteer.test.js"
+    "test:pupp": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/puppeteer.test.js",
+    "test:play": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/playwright.test.js"
   },
   "repository": {
     "type": "git",
